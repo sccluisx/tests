@@ -14,8 +14,8 @@ autoreconf -i
 make -j 4
 make install
 #Seccer installation
-echo "Compiling Seecer"
-cd ../..
-autoreconf -i
-./configure
-make
+#echo "Compiling Seecer"
+#cd ../..
+#autoreconf -i
+#./configure
+#make
