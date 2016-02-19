@@ -1,113 +1,128 @@
-src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/c++config.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/os_defines.h \
- /usr/include/features.h /usr/include/bits/predefs.h \
- /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/cpu_defines.h \
- /usr/include/c++/4.4/cstddef \
- /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h \
- /usr/include/stdio.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/libio.h \
+src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.7/cstdio \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/c++config.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/cpu_defines.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h /usr/include/c++/4.4/fstream \
- /usr/include/c++/4.4/istream /usr/include/c++/4.4/ios \
- /usr/include/c++/4.4/iosfwd /usr/include/c++/4.4/bits/stringfwd.h \
- /usr/include/c++/4.4/bits/postypes.h /usr/include/c++/4.4/cwchar \
- /usr/include/bits/wchar.h /usr/include/xlocale.h \
- /usr/include/c++/4.4/exception /usr/include/c++/4.4/bits/char_traits.h \
- /usr/include/c++/4.4/bits/stl_algobase.h \
- /usr/include/c++/4.4/bits/functexcept.h \
- /usr/include/c++/4.4/exception_defines.h \
- /usr/include/c++/4.4/bits/cpp_type_traits.h \
- /usr/include/c++/4.4/ext/type_traits.h \
- /usr/include/c++/4.4/ext/numeric_traits.h \
- /usr/include/c++/4.4/bits/stl_pair.h /usr/include/c++/4.4/bits/move.h \
- /usr/include/c++/4.4/bits/concept_check.h \
- /usr/include/c++/4.4/bits/stl_iterator_base_types.h \
- /usr/include/c++/4.4/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/4.4/bits/stl_iterator.h \
- /usr/include/c++/4.4/debug/debug.h /usr/include/c++/4.4/bits/localefwd.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/c++locale.h \
- /usr/include/c++/4.4/clocale /usr/include/locale.h \
- /usr/include/bits/locale.h /usr/include/c++/4.4/cctype \
- /usr/include/ctype.h /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/c++/4.4/bits/ios_base.h \
- /usr/include/c++/4.4/ext/atomicity.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/gthr.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/gthr-default.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/c++/4.7/fstream /usr/include/c++/4.7/istream \
+ /usr/include/c++/4.7/ios /usr/include/c++/4.7/iosfwd \
+ /usr/include/c++/4.7/bits/stringfwd.h \
+ /usr/include/c++/4.7/bits/postypes.h /usr/include/c++/4.7/cwchar \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/xlocale.h \
+ /usr/include/c++/4.7/exception \
+ /usr/include/c++/4.7/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.7/bits/char_traits.h \
+ /usr/include/c++/4.7/bits/stl_algobase.h \
+ /usr/include/c++/4.7/bits/functexcept.h \
+ /usr/include/c++/4.7/bits/exception_defines.h \
+ /usr/include/c++/4.7/bits/cpp_type_traits.h \
+ /usr/include/c++/4.7/ext/type_traits.h \
+ /usr/include/c++/4.7/ext/numeric_traits.h \
+ /usr/include/c++/4.7/bits/stl_pair.h /usr/include/c++/4.7/bits/move.h \
+ /usr/include/c++/4.7/bits/concept_check.h \
+ /usr/include/c++/4.7/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.7/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.7/bits/stl_iterator.h \
+ /usr/include/c++/4.7/debug/debug.h /usr/include/c++/4.7/bits/localefwd.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/4.7/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/4.7/cctype \
+ /usr/include/ctype.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/c++/4.7/bits/ios_base.h \
+ /usr/include/c++/4.7/ext/atomicity.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/gthr.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/time.h \
- /usr/include/bits/sched.h /usr/include/bits/time.h /usr/include/signal.h \
- /usr/include/bits/sigset.h /usr/include/bits/pthreadtypes.h \
- /usr/include/bits/setjmp.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/getopt.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/atomic_word.h \
- /usr/include/c++/4.4/bits/locale_classes.h /usr/include/c++/4.4/string \
- /usr/include/c++/4.4/bits/allocator.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/4.4/ext/new_allocator.h /usr/include/c++/4.4/new \
- /usr/include/c++/4.4/bits/ostream_insert.h \
- /usr/include/c++/4.4/cxxabi-forced.h \
- /usr/include/c++/4.4/bits/stl_function.h \
- /usr/include/c++/4.4/backward/binders.h \
- /usr/include/c++/4.4/bits/basic_string.h \
- /usr/include/c++/4.4/initializer_list \
- /usr/include/c++/4.4/bits/basic_string.tcc \
- /usr/include/c++/4.4/bits/locale_classes.tcc \
- /usr/include/c++/4.4/streambuf /usr/include/c++/4.4/bits/streambuf.tcc \
- /usr/include/c++/4.4/bits/basic_ios.h \
- /usr/include/c++/4.4/bits/locale_facets.h /usr/include/c++/4.4/cwctype \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/atomic_word.h \
+ /usr/include/c++/4.7/bits/locale_classes.h /usr/include/c++/4.7/string \
+ /usr/include/c++/4.7/bits/allocator.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/4.7/ext/new_allocator.h /usr/include/c++/4.7/new \
+ /usr/include/c++/4.7/bits/ostream_insert.h \
+ /usr/include/c++/4.7/bits/cxxabi_forced.h \
+ /usr/include/c++/4.7/bits/stl_function.h \
+ /usr/include/c++/4.7/backward/binders.h \
+ /usr/include/c++/4.7/bits/range_access.h \
+ /usr/include/c++/4.7/bits/basic_string.h \
+ /usr/include/c++/4.7/bits/basic_string.tcc \
+ /usr/include/c++/4.7/bits/locale_classes.tcc \
+ /usr/include/c++/4.7/streambuf /usr/include/c++/4.7/bits/streambuf.tcc \
+ /usr/include/c++/4.7/bits/basic_ios.h \
+ /usr/include/c++/4.7/bits/locale_facets.h /usr/include/c++/4.7/cwctype \
  /usr/include/wctype.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/ctype_base.h \
- /usr/include/c++/4.4/bits/streambuf_iterator.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/ctype_inline.h \
- /usr/include/c++/4.4/bits/locale_facets.tcc \
- /usr/include/c++/4.4/bits/basic_ios.tcc /usr/include/c++/4.4/ostream \
- /usr/include/c++/4.4/bits/ostream.tcc \
- /usr/include/c++/4.4/bits/istream.tcc \
- /usr/include/c++/4.4/bits/codecvt.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/basic_file.h \
- /usr/include/c++/4.4/x86_64-linux-gnu/bits/c++io.h \
- /usr/include/c++/4.4/bits/fstream.tcc /usr/include/c++/4.4/iostream \
- /usr/include/c++/4.4/set /usr/include/c++/4.4/bits/stl_tree.h \
- /usr/include/c++/4.4/bits/stl_set.h \
- /usr/include/c++/4.4/bits/stl_multiset.h /usr/include/stdlib.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/sys/types.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/sys/sysmacros.h \
- /usr/include/alloca.h /usr/include/c++/4.4/vector \
- /usr/include/c++/4.4/bits/stl_construct.h \
- /usr/include/c++/4.4/bits/stl_uninitialized.h \
- /usr/include/c++/4.4/bits/stl_vector.h \
- /usr/include/c++/4.4/bits/stl_bvector.h \
- /usr/include/c++/4.4/bits/vector.tcc \
- /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/omp.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/4.7/bits/streambuf_iterator.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/4.7/bits/locale_facets.tcc \
+ /usr/include/c++/4.7/bits/basic_ios.tcc /usr/include/c++/4.7/ostream \
+ /usr/include/c++/4.7/bits/ostream.tcc \
+ /usr/include/c++/4.7/bits/istream.tcc \
+ /usr/include/c++/4.7/bits/codecvt.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/4.7/x86_64-linux-gnu/bits/c++io.h \
+ /usr/include/c++/4.7/bits/fstream.tcc /usr/include/getopt.h \
+ /usr/include/c++/4.7/iostream /usr/include/c++/4.7/set \
+ /usr/include/c++/4.7/bits/stl_tree.h /usr/include/c++/4.7/bits/stl_set.h \
+ /usr/include/c++/4.7/bits/stl_multiset.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/c++/4.7/vector /usr/include/c++/4.7/bits/stl_construct.h \
+ /usr/include/c++/4.7/ext/alloc_traits.h \
+ /usr/include/c++/4.7/bits/stl_uninitialized.h \
+ /usr/include/c++/4.7/bits/stl_vector.h \
+ /usr/include/c++/4.7/bits/stl_bvector.h \
+ /usr/include/c++/4.7/bits/vector.tcc \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/omp.h \
  /usr/include/gsl/gsl_permutation.h /usr/include/gsl/gsl_types.h \
  /usr/include/gsl/gsl_errno.h /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/gsl/gsl_inline.h \
- /usr/include/gsl/gsl_check_range.h /usr/include/gsl/gsl_randist.h \
- /usr/include/gsl/gsl_rng.h src/common.h /usr/include/c++/4.4/deque \
- /usr/include/c++/4.4/bits/stl_deque.h \
- /usr/include/c++/4.4/bits/deque.tcc /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/gsl/gsl_inline.h /usr/include/gsl/gsl_check_range.h \
+ /usr/include/gsl/gsl_randist.h /usr/include/gsl/gsl_rng.h src/common.h \
+ /usr/include/c++/4.7/deque /usr/include/c++/4.7/bits/stl_deque.h \
+ /usr/include/c++/4.7/bits/deque.tcc \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdint.h /usr/include/stdint.h \
  seqan-cxx/seqan/store.h seqan-cxx/seqan/basic.h \
  seqan-cxx/seqan/platform.h seqan-cxx/seqan/platform/platform_gcc.h \
  /usr/include/inttypes.h \
  seqan-cxx/seqan/platform/platform_generated_forwards.h \
- /usr/include/c++/4.4/cstdlib /usr/include/c++/4.4/ctime \
- /usr/include/c++/4.4/iterator \
- /usr/include/c++/4.4/bits/stream_iterator.h \
- /usr/include/c++/4.4/algorithm /usr/include/c++/4.4/bits/stl_algo.h \
- /usr/include/c++/4.4/bits/algorithmfwd.h \
- /usr/include/c++/4.4/bits/stl_heap.h \
- /usr/include/c++/4.4/bits/stl_tempbuf.h /usr/include/c++/4.4/cstring \
+ /usr/include/c++/4.7/cstddef /usr/include/c++/4.7/cstdlib \
+ /usr/include/c++/4.7/ctime /usr/include/c++/4.7/iterator \
+ /usr/include/c++/4.7/bits/stream_iterator.h \
+ /usr/include/c++/4.7/algorithm /usr/include/c++/4.7/utility \
+ /usr/include/c++/4.7/bits/stl_relops.h \
+ /usr/include/c++/4.7/bits/stl_algo.h \
+ /usr/include/c++/4.7/bits/algorithmfwd.h \
+ /usr/include/c++/4.7/bits/stl_heap.h \
+ /usr/include/c++/4.7/bits/stl_tempbuf.h /usr/include/c++/4.7/cstring \
  /usr/include/string.h seqan-cxx/seqan/basic/basic_forwards.h \
  seqan-cxx/seqan/basic/basic_generated_forwards.h \
- seqan-cxx/seqan/basic/basic_testing.h /usr/include/c++/4.4/cstdarg \
+ seqan-cxx/seqan/basic/basic_testing.h /usr/include/c++/4.7/cstdarg \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
  seqan-cxx/seqan/basic/basic_debug.h \
  seqan-cxx/seqan/basic/basic_profile.h \
  seqan-cxx/seqan/basic/basic_parallelism.h \
@@ -135,7 +150,7 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/basic/basic_proxy.h \
  seqan-cxx/seqan/basic/basic_pointer.h \
  seqan-cxx/seqan/basic/basic_alphabet_interface.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/float.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include/float.h \
  seqan-cxx/seqan/basic/basic_alphabet_trait_basic.h \
  seqan-cxx/seqan/basic/basic_alphabet_interface2.h \
  seqan-cxx/seqan/basic/basic_alphabet_simple_tabs.h \
@@ -145,10 +160,10 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/basic/basic_holder_dynamic.h \
  seqan-cxx/seqan/basic/basic_volatile_ptr.h \
  seqan-cxx/seqan/basic/basic_aggregates.h seqan-cxx/seqan/sequence.h \
- /usr/include/c++/4.4/cassert /usr/include/assert.h \
- /usr/include/c++/4.4/map /usr/include/c++/4.4/bits/stl_map.h \
- /usr/include/c++/4.4/bits/stl_multimap.h /usr/include/c++/4.4/list \
- /usr/include/c++/4.4/bits/stl_list.h /usr/include/c++/4.4/bits/list.tcc \
+ /usr/include/c++/4.7/cassert /usr/include/assert.h \
+ /usr/include/c++/4.7/map /usr/include/c++/4.7/bits/stl_map.h \
+ /usr/include/c++/4.7/bits/stl_multimap.h /usr/include/c++/4.7/list \
+ /usr/include/c++/4.7/bits/stl_list.h /usr/include/c++/4.7/bits/list.tcc \
  seqan-cxx/seqan/sequence/sequence_forwards.h \
  seqan-cxx/seqan/sequence/sequence_generated_forwards.h \
  seqan-cxx/seqan/sequence/sequence_stream.h \
@@ -176,23 +191,27 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/sequence/adapt_std_string.h \
  seqan-cxx/seqan/sequence/adapt_std_vector.h \
  seqan-cxx/seqan/sequence/adapt_array_pointer.h seqan-cxx/seqan/align.h \
- /usr/include/c++/4.4/cmath /usr/include/math.h \
- /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
- /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
- /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
- /usr/include/c++/4.4/bits/cmath.tcc /usr/include/c++/4.4/stack \
- /usr/include/c++/4.4/bits/stl_stack.h seqan-cxx/seqan/score.h \
- seqan-cxx/seqan/score/score_generated_forwards.h \
+ /usr/include/c++/4.7/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+ /usr/include/x86_64-linux-gnu/bits/inf.h \
+ /usr/include/x86_64-linux-gnu/bits/nan.h \
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/c++/4.7/stack /usr/include/c++/4.7/bits/stl_stack.h \
+ seqan-cxx/seqan/score.h seqan-cxx/seqan/score/score_generated_forwards.h \
  seqan-cxx/seqan/score/score_base.h seqan-cxx/seqan/score/score_edit.h \
  seqan-cxx/seqan/score/score_matrix.h seqan-cxx/seqan/file.h \
- /usr/include/c++/4.4/climits \
- /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- seqan-cxx/seqan/modifier.h /usr/include/c++/4.4/functional \
+ /usr/include/c++/4.7/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ seqan-cxx/seqan/modifier.h /usr/include/c++/4.7/functional \
  seqan-cxx/seqan/modifier/modifier_generated_forwards.h \
  seqan-cxx/seqan/modifier/modifier_alphabet.h \
  seqan-cxx/seqan/modifier/modifier_alphabet_expansion.h \
@@ -208,26 +227,33 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/file/chunk_collector.h seqan-cxx/seqan/file/meta.h \
  seqan-cxx/seqan/file/file_base.h seqan-cxx/seqan/file/file_cstyle.h \
  seqan-cxx/seqan/system.h /usr/include/semaphore.h \
- /usr/include/bits/semaphore.h /usr/include/aio.h /usr/include/fcntl.h \
- /usr/include/bits/fcntl.h /usr/include/bits/uio.h \
- /usr/include/sys/stat.h /usr/include/bits/stat.h \
- /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
- /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
- /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
- /usr/include/bits/sigthread.h /usr/include/sys/mman.h \
- /usr/include/bits/mman.h seqan-cxx/seqan/system/system_manual_forwards.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h /usr/include/aio.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/sys/mman.h \
+ /usr/include/x86_64-linux-gnu/bits/mman.h \
+ seqan-cxx/seqan/system/system_manual_forwards.h \
  seqan-cxx/seqan/system/file_manual_forwards.h \
  seqan-cxx/seqan/system/system_base.h \
  seqan-cxx/seqan/system/system_mutex.h \
  seqan-cxx/seqan/system/system_sema.h \
  seqan-cxx/seqan/system/system_event.h \
  seqan-cxx/seqan/system/system_thread.h \
- seqan-cxx/seqan/system/file_sync.h /usr/include/c++/4.4/cerrno \
+ seqan-cxx/seqan/system/file_sync.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/c++/4.7/cerrno \
  seqan-cxx/seqan/system/file_async.h \
  seqan-cxx/seqan/system/file_directory.h /usr/include/dirent.h \
- /usr/include/bits/dirent.h seqan-cxx/seqan/file/file_array.h \
- /usr/include/c++/4.4/sstream /usr/include/c++/4.4/bits/sstream.tcc \
- /usr/include/c++/4.4/iomanip \
+ /usr/include/x86_64-linux-gnu/bits/dirent.h \
+ seqan-cxx/seqan/file/file_array.h /usr/include/c++/4.7/sstream \
+ /usr/include/c++/4.7/bits/sstream.tcc /usr/include/c++/4.7/iomanip \
  seqan-cxx/seqan/file/file_filereaderiterator.h \
  seqan-cxx/seqan/file/file_filereader.h \
  seqan-cxx/seqan/file/file_format.h \
@@ -276,8 +302,8 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/graph_types/graph_drawing.h \
  seqan-cxx/seqan/misc/misc_parsing.h \
  seqan-cxx/seqan/graph_types/graph_utility_parsing.h \
- seqan-cxx/seqan/graph_algorithms.h /usr/include/c++/4.4/queue \
- /usr/include/c++/4.4/bits/stl_queue.h seqan-cxx/seqan/random.h \
+ seqan-cxx/seqan/graph_algorithms.h /usr/include/c++/4.7/queue \
+ /usr/include/c++/4.7/bits/stl_queue.h seqan-cxx/seqan/random.h \
  seqan-cxx/seqan/random/random_base.h \
  seqan-cxx/seqan/random/random_mt19937.h \
  seqan-cxx/seqan/random/ext_MersenneTwister.h \
@@ -344,10 +370,10 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/store/store_io.h seqan-cxx/seqan/store/store_io_sam.h \
  seqan-cxx/seqan/store/store_io_gff.h \
  seqan-cxx/seqan/store/store_io_ucsc.h src/hashmap_read_finder.h \
- src/read_finder.h src/stats_keeper.h /usr/include/c++/4.4/ext/hash_map \
- /usr/include/c++/4.4/backward/backward_warning.h \
- /usr/include/c++/4.4/backward/hashtable.h \
- /usr/include/c++/4.4/backward/hash_fun.h seqan-cxx/seqan/index.h \
+ src/read_finder.h src/stats_keeper.h /usr/include/c++/4.7/ext/hash_map \
+ /usr/include/c++/4.7/backward/backward_warning.h \
+ /usr/include/c++/4.7/backward/hashtable.h \
+ /usr/include/c++/4.7/backward/hash_fun.h seqan-cxx/seqan/index.h \
  seqan-cxx/seqan/pipe.h seqan-cxx/seqan/pipe/pipe_generated_forwards.h \
  seqan-cxx/seqan/pipe/pipe_base.h seqan-cxx/seqan/pipe/pipe_iterator.h \
  seqan-cxx/seqan/pipe/pipe_caster.h seqan-cxx/seqan/pipe/pipe_counter.h \
@@ -375,7 +401,6 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/find/find_abndm.h seqan-cxx/seqan/find/find_pex.h \
  seqan-cxx/seqan/find/find_hamming_simple.h \
  seqan-cxx/seqan/misc/misc_set.h seqan-cxx/seqan/misc/misc_base.h \
- /usr/include/c++/4.4/utility /usr/include/c++/4.4/bits/stl_relops.h \
  seqan-cxx/seqan/index/index_manual_forwards.h \
  seqan-cxx/seqan/index/index_generated_forwards.h \
  seqan-cxx/seqan/index/index_base.h seqan-cxx/seqan/index/radix.h \
@@ -416,46 +441,41 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
  seqan-cxx/seqan/index/find_index_qgram.h \
  seqan-cxx/seqan/index/find_index.h seqan-cxx/seqan/index/find_quasar.h \
  seqan-cxx/seqan/index/find_swift.h \
- /usr/include/c++/4.4/tr1/unordered_map \
- /usr/include/c++/4.4/tr1/type_traits \
- /usr/include/c++/4.4/tr1_impl/type_traits \
- /usr/include/c++/4.4/tr1/functional_hash.h \
- /usr/include/c++/4.4/tr1_impl/functional_hash.h \
- /usr/include/c++/4.4/tr1/hashtable.h \
- /usr/include/c++/4.4/tr1_impl/hashtable \
- /usr/include/c++/4.4/tr1_impl/hashtable_policy.h \
- /usr/include/c++/4.4/tr1_impl/unordered_map src/hmm_cluster.h \
- /usr/include/c++/4.4/limits src/smart_hashmap_read_finder.h
+ /usr/include/c++/4.7/tr1/unordered_map \
+ /usr/include/c++/4.7/tr1/type_traits \
+ /usr/include/c++/4.7/tr1/functional_hash.h \
+ /usr/include/c++/4.7/tr1/hashtable.h \
+ /usr/include/c++/4.7/tr1/hashtable_policy.h \
+ /usr/include/c++/4.7/tr1/unordered_map.h src/hmm_cluster.h \
+ /usr/include/c++/4.7/limits src/smart_hashmap_read_finder.h
 
-/usr/include/c++/4.4/cstdio:
+/usr/include/c++/4.7/cstdio:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/c++config.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/c++config.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/os_defines.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/os_defines.h:
 
 /usr/include/features.h:
 
-/usr/include/bits/predefs.h:
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
 
-/usr/include/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/c++/4.4/cstddef:
-
-/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stddef.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/cpu_defines.h:
 
 /usr/include/stdio.h:
 
-/usr/include/bits/types.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stddef.h:
 
-/usr/include/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/libio.h:
 
@@ -463,89 +483,89 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdarg.h:
 
-/usr/include/bits/stdio_lim.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/bits/sys_errlist.h:
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
-/usr/include/bits/stdio.h:
+/usr/include/c++/4.7/fstream:
 
-/usr/include/c++/4.4/fstream:
+/usr/include/c++/4.7/istream:
 
-/usr/include/c++/4.4/istream:
+/usr/include/c++/4.7/ios:
 
-/usr/include/c++/4.4/ios:
+/usr/include/c++/4.7/iosfwd:
 
-/usr/include/c++/4.4/iosfwd:
+/usr/include/c++/4.7/bits/stringfwd.h:
 
-/usr/include/c++/4.4/bits/stringfwd.h:
+/usr/include/c++/4.7/bits/postypes.h:
 
-/usr/include/c++/4.4/bits/postypes.h:
+/usr/include/c++/4.7/cwchar:
 
-/usr/include/c++/4.4/cwchar:
-
-/usr/include/bits/wchar.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/xlocale.h:
 
-/usr/include/c++/4.4/exception:
+/usr/include/c++/4.7/exception:
 
-/usr/include/c++/4.4/bits/char_traits.h:
+/usr/include/c++/4.7/bits/atomic_lockfree_defines.h:
 
-/usr/include/c++/4.4/bits/stl_algobase.h:
+/usr/include/c++/4.7/bits/char_traits.h:
 
-/usr/include/c++/4.4/bits/functexcept.h:
+/usr/include/c++/4.7/bits/stl_algobase.h:
 
-/usr/include/c++/4.4/exception_defines.h:
+/usr/include/c++/4.7/bits/functexcept.h:
 
-/usr/include/c++/4.4/bits/cpp_type_traits.h:
+/usr/include/c++/4.7/bits/exception_defines.h:
 
-/usr/include/c++/4.4/ext/type_traits.h:
+/usr/include/c++/4.7/bits/cpp_type_traits.h:
 
-/usr/include/c++/4.4/ext/numeric_traits.h:
+/usr/include/c++/4.7/ext/type_traits.h:
 
-/usr/include/c++/4.4/bits/stl_pair.h:
+/usr/include/c++/4.7/ext/numeric_traits.h:
 
-/usr/include/c++/4.4/bits/move.h:
+/usr/include/c++/4.7/bits/stl_pair.h:
 
-/usr/include/c++/4.4/bits/concept_check.h:
+/usr/include/c++/4.7/bits/move.h:
 
-/usr/include/c++/4.4/bits/stl_iterator_base_types.h:
+/usr/include/c++/4.7/bits/concept_check.h:
 
-/usr/include/c++/4.4/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/4.7/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/4.4/bits/stl_iterator.h:
+/usr/include/c++/4.7/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/4.4/debug/debug.h:
+/usr/include/c++/4.7/bits/stl_iterator.h:
 
-/usr/include/c++/4.4/bits/localefwd.h:
+/usr/include/c++/4.7/debug/debug.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/c++locale.h:
+/usr/include/c++/4.7/bits/localefwd.h:
 
-/usr/include/c++/4.4/clocale:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/c++locale.h:
+
+/usr/include/c++/4.7/clocale:
 
 /usr/include/locale.h:
 
-/usr/include/bits/locale.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/c++/4.4/cctype:
+/usr/include/c++/4.7/cctype:
 
 /usr/include/ctype.h:
 
 /usr/include/endian.h:
 
-/usr/include/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/bits/byteswap.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/c++/4.4/bits/ios_base.h:
+/usr/include/c++/4.7/bits/ios_base.h:
 
-/usr/include/c++/4.4/ext/atomicity.h:
+/usr/include/c++/4.7/ext/atomicity.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/gthr.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/gthr.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/gthr-default.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/gthr-default.h:
 
 /usr/include/pthread.h:
 
@@ -553,133 +573,125 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
 
 /usr/include/time.h:
 
-/usr/include/bits/sched.h:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
 
-/usr/include/bits/time.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/signal.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/bits/sigset.h:
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/atomic_word.h:
 
-/usr/include/bits/setjmp.h:
+/usr/include/c++/4.7/bits/locale_classes.h:
 
-/usr/include/unistd.h:
+/usr/include/c++/4.7/string:
 
-/usr/include/bits/posix_opt.h:
+/usr/include/c++/4.7/bits/allocator.h:
 
-/usr/include/bits/environments.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/c++allocator.h:
 
-/usr/include/bits/confname.h:
+/usr/include/c++/4.7/ext/new_allocator.h:
 
-/usr/include/getopt.h:
+/usr/include/c++/4.7/new:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/atomic_word.h:
+/usr/include/c++/4.7/bits/ostream_insert.h:
 
-/usr/include/c++/4.4/bits/locale_classes.h:
+/usr/include/c++/4.7/bits/cxxabi_forced.h:
 
-/usr/include/c++/4.4/string:
+/usr/include/c++/4.7/bits/stl_function.h:
 
-/usr/include/c++/4.4/bits/allocator.h:
+/usr/include/c++/4.7/backward/binders.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/c++allocator.h:
+/usr/include/c++/4.7/bits/range_access.h:
 
-/usr/include/c++/4.4/ext/new_allocator.h:
+/usr/include/c++/4.7/bits/basic_string.h:
 
-/usr/include/c++/4.4/new:
+/usr/include/c++/4.7/bits/basic_string.tcc:
 
-/usr/include/c++/4.4/bits/ostream_insert.h:
+/usr/include/c++/4.7/bits/locale_classes.tcc:
 
-/usr/include/c++/4.4/cxxabi-forced.h:
+/usr/include/c++/4.7/streambuf:
 
-/usr/include/c++/4.4/bits/stl_function.h:
+/usr/include/c++/4.7/bits/streambuf.tcc:
 
-/usr/include/c++/4.4/backward/binders.h:
+/usr/include/c++/4.7/bits/basic_ios.h:
 
-/usr/include/c++/4.4/bits/basic_string.h:
+/usr/include/c++/4.7/bits/locale_facets.h:
 
-/usr/include/c++/4.4/initializer_list:
-
-/usr/include/c++/4.4/bits/basic_string.tcc:
-
-/usr/include/c++/4.4/bits/locale_classes.tcc:
-
-/usr/include/c++/4.4/streambuf:
-
-/usr/include/c++/4.4/bits/streambuf.tcc:
-
-/usr/include/c++/4.4/bits/basic_ios.h:
-
-/usr/include/c++/4.4/bits/locale_facets.h:
-
-/usr/include/c++/4.4/cwctype:
+/usr/include/c++/4.7/cwctype:
 
 /usr/include/wctype.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/ctype_base.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_base.h:
 
-/usr/include/c++/4.4/bits/streambuf_iterator.h:
+/usr/include/c++/4.7/bits/streambuf_iterator.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/ctype_inline.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/ctype_inline.h:
 
-/usr/include/c++/4.4/bits/locale_facets.tcc:
+/usr/include/c++/4.7/bits/locale_facets.tcc:
 
-/usr/include/c++/4.4/bits/basic_ios.tcc:
+/usr/include/c++/4.7/bits/basic_ios.tcc:
 
-/usr/include/c++/4.4/ostream:
+/usr/include/c++/4.7/ostream:
 
-/usr/include/c++/4.4/bits/ostream.tcc:
+/usr/include/c++/4.7/bits/ostream.tcc:
 
-/usr/include/c++/4.4/bits/istream.tcc:
+/usr/include/c++/4.7/bits/istream.tcc:
 
-/usr/include/c++/4.4/bits/codecvt.h:
+/usr/include/c++/4.7/bits/codecvt.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/basic_file.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/basic_file.h:
 
-/usr/include/c++/4.4/x86_64-linux-gnu/bits/c++io.h:
+/usr/include/c++/4.7/x86_64-linux-gnu/bits/c++io.h:
 
-/usr/include/c++/4.4/bits/fstream.tcc:
+/usr/include/c++/4.7/bits/fstream.tcc:
 
-/usr/include/c++/4.4/iostream:
+/usr/include/getopt.h:
 
-/usr/include/c++/4.4/set:
+/usr/include/c++/4.7/iostream:
 
-/usr/include/c++/4.4/bits/stl_tree.h:
+/usr/include/c++/4.7/set:
 
-/usr/include/c++/4.4/bits/stl_set.h:
+/usr/include/c++/4.7/bits/stl_tree.h:
 
-/usr/include/c++/4.4/bits/stl_multiset.h:
+/usr/include/c++/4.7/bits/stl_set.h:
+
+/usr/include/c++/4.7/bits/stl_multiset.h:
 
 /usr/include/stdlib.h:
 
-/usr/include/bits/waitflags.h:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/include/bits/waitstatus.h:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/sys/types.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/sys/select.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/bits/select.h:
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/sys/sysmacros.h:
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/alloca.h:
 
-/usr/include/c++/4.4/vector:
+/usr/include/c++/4.7/vector:
 
-/usr/include/c++/4.4/bits/stl_construct.h:
+/usr/include/c++/4.7/bits/stl_construct.h:
 
-/usr/include/c++/4.4/bits/stl_uninitialized.h:
+/usr/include/c++/4.7/ext/alloc_traits.h:
 
-/usr/include/c++/4.4/bits/stl_vector.h:
+/usr/include/c++/4.7/bits/stl_uninitialized.h:
 
-/usr/include/c++/4.4/bits/stl_bvector.h:
+/usr/include/c++/4.7/bits/stl_vector.h:
 
-/usr/include/c++/4.4/bits/vector.tcc:
+/usr/include/c++/4.7/bits/stl_bvector.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/omp.h:
+/usr/include/c++/4.7/bits/vector.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/omp.h:
 
 /usr/include/gsl/gsl_permutation.h:
 
@@ -689,11 +701,11 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
 
 /usr/include/errno.h:
 
-/usr/include/bits/errno.h:
+/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/linux/errno.h:
 
-/usr/include/asm/errno.h:
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -709,11 +721,13 @@ src/seecer_main.o: src/seecer_main.cpp /usr/include/c++/4.4/cstdio \
 
 src/common.h:
 
-/usr/include/c++/4.4/deque:
+/usr/include/c++/4.7/deque:
 
-/usr/include/c++/4.4/bits/stl_deque.h:
+/usr/include/c++/4.7/bits/stl_deque.h:
 
-/usr/include/c++/4.4/bits/deque.tcc:
+/usr/include/c++/4.7/bits/deque.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -729,25 +743,31 @@ seqan-cxx/seqan/platform/platform_gcc.h:
 
 seqan-cxx/seqan/platform/platform_generated_forwards.h:
 
-/usr/include/c++/4.4/cstdlib:
+/usr/include/c++/4.7/cstddef:
 
-/usr/include/c++/4.4/ctime:
+/usr/include/c++/4.7/cstdlib:
 
-/usr/include/c++/4.4/iterator:
+/usr/include/c++/4.7/ctime:
 
-/usr/include/c++/4.4/bits/stream_iterator.h:
+/usr/include/c++/4.7/iterator:
 
-/usr/include/c++/4.4/algorithm:
+/usr/include/c++/4.7/bits/stream_iterator.h:
 
-/usr/include/c++/4.4/bits/stl_algo.h:
+/usr/include/c++/4.7/algorithm:
 
-/usr/include/c++/4.4/bits/algorithmfwd.h:
+/usr/include/c++/4.7/utility:
 
-/usr/include/c++/4.4/bits/stl_heap.h:
+/usr/include/c++/4.7/bits/stl_relops.h:
 
-/usr/include/c++/4.4/bits/stl_tempbuf.h:
+/usr/include/c++/4.7/bits/stl_algo.h:
 
-/usr/include/c++/4.4/cstring:
+/usr/include/c++/4.7/bits/algorithmfwd.h:
+
+/usr/include/c++/4.7/bits/stl_heap.h:
+
+/usr/include/c++/4.7/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.7/cstring:
 
 /usr/include/string.h:
 
@@ -757,7 +777,15 @@ seqan-cxx/seqan/basic/basic_generated_forwards.h:
 
 seqan-cxx/seqan/basic/basic_testing.h:
 
-/usr/include/c++/4.4/cstdarg:
+/usr/include/c++/4.7/cstdarg:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 seqan-cxx/seqan/basic/basic_debug.h:
 
@@ -815,7 +843,7 @@ seqan-cxx/seqan/basic/basic_pointer.h:
 
 seqan-cxx/seqan/basic/basic_alphabet_interface.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include/float.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include/float.h:
 
 seqan-cxx/seqan/basic/basic_alphabet_trait_basic.h:
 
@@ -837,21 +865,21 @@ seqan-cxx/seqan/basic/basic_aggregates.h:
 
 seqan-cxx/seqan/sequence.h:
 
-/usr/include/c++/4.4/cassert:
+/usr/include/c++/4.7/cassert:
 
 /usr/include/assert.h:
 
-/usr/include/c++/4.4/map:
+/usr/include/c++/4.7/map:
 
-/usr/include/c++/4.4/bits/stl_map.h:
+/usr/include/c++/4.7/bits/stl_map.h:
 
-/usr/include/c++/4.4/bits/stl_multimap.h:
+/usr/include/c++/4.7/bits/stl_multimap.h:
 
-/usr/include/c++/4.4/list:
+/usr/include/c++/4.7/list:
 
-/usr/include/c++/4.4/bits/stl_list.h:
+/usr/include/c++/4.7/bits/stl_list.h:
 
-/usr/include/c++/4.4/bits/list.tcc:
+/usr/include/c++/4.7/bits/list.tcc:
 
 seqan-cxx/seqan/sequence/sequence_forwards.h:
 
@@ -909,31 +937,27 @@ seqan-cxx/seqan/sequence/adapt_array_pointer.h:
 
 seqan-cxx/seqan/align.h:
 
-/usr/include/c++/4.4/cmath:
+/usr/include/c++/4.7/cmath:
 
 /usr/include/math.h:
 
-/usr/include/bits/huge_val.h:
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
 
-/usr/include/bits/huge_valf.h:
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
 
-/usr/include/bits/huge_vall.h:
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
 
-/usr/include/bits/inf.h:
+/usr/include/x86_64-linux-gnu/bits/inf.h:
 
-/usr/include/bits/nan.h:
+/usr/include/x86_64-linux-gnu/bits/nan.h:
 
-/usr/include/bits/mathdef.h:
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
-/usr/include/bits/mathcalls.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/bits/mathinline.h:
+/usr/include/c++/4.7/stack:
 
-/usr/include/c++/4.4/bits/cmath.tcc:
-
-/usr/include/c++/4.4/stack:
-
-/usr/include/c++/4.4/bits/stl_stack.h:
+/usr/include/c++/4.7/bits/stl_stack.h:
 
 seqan-cxx/seqan/score.h:
 
@@ -947,27 +971,27 @@ seqan-cxx/seqan/score/score_matrix.h:
 
 seqan-cxx/seqan/file.h:
 
-/usr/include/c++/4.4/climits:
+/usr/include/c++/4.7/climits:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/limits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.4.5/include-fixed/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
-/usr/include/bits/posix1_lim.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/bits/local_lim.h:
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/linux/limits.h:
 
-/usr/include/bits/posix2_lim.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/bits/xopen_lim.h:
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 seqan-cxx/seqan/modifier.h:
 
-/usr/include/c++/4.4/functional:
+/usr/include/c++/4.7/functional:
 
 seqan-cxx/seqan/modifier/modifier_generated_forwards.h:
 
@@ -1007,37 +1031,37 @@ seqan-cxx/seqan/system.h:
 
 /usr/include/semaphore.h:
 
-/usr/include/bits/semaphore.h:
+/usr/include/x86_64-linux-gnu/bits/semaphore.h:
 
 /usr/include/aio.h:
 
 /usr/include/fcntl.h:
 
-/usr/include/bits/fcntl.h:
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
 
-/usr/include/bits/uio.h:
+/usr/include/x86_64-linux-gnu/bits/uio.h:
 
-/usr/include/sys/stat.h:
+/usr/include/x86_64-linux-gnu/bits/stat.h:
 
-/usr/include/bits/stat.h:
+/usr/include/signal.h:
 
-/usr/include/bits/signum.h:
+/usr/include/x86_64-linux-gnu/bits/signum.h:
 
-/usr/include/bits/siginfo.h:
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
 
-/usr/include/bits/sigaction.h:
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
-/usr/include/bits/sigcontext.h:
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
-/usr/include/bits/sigstack.h:
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
-/usr/include/sys/ucontext.h:
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
-/usr/include/bits/sigthread.h:
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
-/usr/include/sys/mman.h:
+/usr/include/x86_64-linux-gnu/sys/mman.h:
 
-/usr/include/bits/mman.h:
+/usr/include/x86_64-linux-gnu/bits/mman.h:
 
 seqan-cxx/seqan/system/system_manual_forwards.h:
 
@@ -1055,7 +1079,9 @@ seqan-cxx/seqan/system/system_thread.h:
 
 seqan-cxx/seqan/system/file_sync.h:
 
-/usr/include/c++/4.4/cerrno:
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/c++/4.7/cerrno:
 
 seqan-cxx/seqan/system/file_async.h:
 
@@ -1063,15 +1089,15 @@ seqan-cxx/seqan/system/file_directory.h:
 
 /usr/include/dirent.h:
 
-/usr/include/bits/dirent.h:
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
 
 seqan-cxx/seqan/file/file_array.h:
 
-/usr/include/c++/4.4/sstream:
+/usr/include/c++/4.7/sstream:
 
-/usr/include/c++/4.4/bits/sstream.tcc:
+/usr/include/c++/4.7/bits/sstream.tcc:
 
-/usr/include/c++/4.4/iomanip:
+/usr/include/c++/4.7/iomanip:
 
 seqan-cxx/seqan/file/file_filereaderiterator.h:
 
@@ -1185,9 +1211,9 @@ seqan-cxx/seqan/graph_types/graph_utility_parsing.h:
 
 seqan-cxx/seqan/graph_algorithms.h:
 
-/usr/include/c++/4.4/queue:
+/usr/include/c++/4.7/queue:
 
-/usr/include/c++/4.4/bits/stl_queue.h:
+/usr/include/c++/4.7/bits/stl_queue.h:
 
 seqan-cxx/seqan/random.h:
 
@@ -1337,13 +1363,13 @@ src/read_finder.h:
 
 src/stats_keeper.h:
 
-/usr/include/c++/4.4/ext/hash_map:
+/usr/include/c++/4.7/ext/hash_map:
 
-/usr/include/c++/4.4/backward/backward_warning.h:
+/usr/include/c++/4.7/backward/backward_warning.h:
 
-/usr/include/c++/4.4/backward/hashtable.h:
+/usr/include/c++/4.7/backward/hashtable.h:
 
-/usr/include/c++/4.4/backward/hash_fun.h:
+/usr/include/c++/4.7/backward/hash_fun.h:
 
 seqan-cxx/seqan/index.h:
 
@@ -1430,10 +1456,6 @@ seqan-cxx/seqan/find/find_hamming_simple.h:
 seqan-cxx/seqan/misc/misc_set.h:
 
 seqan-cxx/seqan/misc/misc_base.h:
-
-/usr/include/c++/4.4/utility:
-
-/usr/include/c++/4.4/bits/stl_relops.h:
 
 seqan-cxx/seqan/index/index_manual_forwards.h:
 
@@ -1533,26 +1555,20 @@ seqan-cxx/seqan/index/find_quasar.h:
 
 seqan-cxx/seqan/index/find_swift.h:
 
-/usr/include/c++/4.4/tr1/unordered_map:
+/usr/include/c++/4.7/tr1/unordered_map:
 
-/usr/include/c++/4.4/tr1/type_traits:
+/usr/include/c++/4.7/tr1/type_traits:
 
-/usr/include/c++/4.4/tr1_impl/type_traits:
+/usr/include/c++/4.7/tr1/functional_hash.h:
 
-/usr/include/c++/4.4/tr1/functional_hash.h:
+/usr/include/c++/4.7/tr1/hashtable.h:
 
-/usr/include/c++/4.4/tr1_impl/functional_hash.h:
+/usr/include/c++/4.7/tr1/hashtable_policy.h:
 
-/usr/include/c++/4.4/tr1/hashtable.h:
-
-/usr/include/c++/4.4/tr1_impl/hashtable:
-
-/usr/include/c++/4.4/tr1_impl/hashtable_policy.h:
-
-/usr/include/c++/4.4/tr1_impl/unordered_map:
+/usr/include/c++/4.7/tr1/unordered_map.h:
 
 src/hmm_cluster.h:
 
-/usr/include/c++/4.4/limits:
+/usr/include/c++/4.7/limits:
 
 src/smart_hashmap_read_finder.h:
