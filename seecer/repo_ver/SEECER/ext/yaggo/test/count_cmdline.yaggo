@@ -1,0 +1,84 @@
+purpose = "Count k-mers or qmers in fasta or fastq files"
+package "jellyfish count"
+description <<EOS
+Count k-mers in fasta or fastq files.
+
+You see it works pretty well
+EOS
+version "0.0.1"
+
+license "My great license
+Enjoy!"
+
+output "count_cmdline.hpp"
+name "count_cmdline"
+
+option("mer-len", "m") {
+  required; description "Length of mer"
+  uint32; default "314159"
+}
+option("size", "s") {
+  uint64; required; suffix; description "Hash size"
+}
+option("threads", "t") {
+  uint32; default 1; description "Number of threads"
+}
+option("output", "o") {
+  string; default "mer_counts"; description "Output prefix"
+  conflict "c", "high"; typestr "dir"
+}
+option("counter-len", "c") {
+  uint32; default "7"; typestr "Length in bits"
+  description "Length of counting field"
+}
+option("high", "h") {
+  on; description "Am I high?"
+}
+option("severity") {
+  description "Severity description"
+  enum "low", "middle", "high"
+#  default 2
+}
+option("out-counter-len") {
+  hidden; uint32; default "4"; typestr "Length in bytes"
+  description "Length of counter fiel in output"
+}
+option("both-strands", "C") {
+  flag; off; description "Count both strand, canonical representation"
+}
+option("lib") {
+  string; multiple
+  description "Boggus lib"
+}
+option("str") {
+  description "C string"
+  c_string }
+option("vstr") {
+  description "vector of string"
+  c_string; multiple }
+option("numbers") {
+  int64; multiple
+  description "Many ints"
+}
+option("double") {
+  double; suffix; multiple
+  description "Many doubles"
+}
+option("verra") {
+  string; typestr "who knows but it is way too long anyhow."
+  description "On verra"
+}
+option("file") {
+  description "file"
+  c_string; access("write"); typestr "path" }
+option("secret") {
+  description "Very secret option"
+  off; secret }
+arg("first") {
+  c_string; typestr "path"
+  description "First"; access "read", "exec"
+}
+arg("second") {
+  uint32; multiple
+  description "Plenty of ints"
+}
