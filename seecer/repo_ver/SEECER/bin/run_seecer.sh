@@ -187,7 +187,7 @@ then
     echo "-----------------------------------------------------------------------"
     echo " *** Start time: " `date`;
 
-    ${BINDIR}/seecer $Read1_N $Read2_N $SEECER_PARAMS --kmer $K -k $TMPDIR/counts_${K}_${LCOUNT} -o $TMPDIR/corrected.fasta
+    echo ${BINDIR}/seecer $Read1_N $Read2_N $SEECER_PARAMS --kmer $K -k $TMPDIR/counts_${K}_${LCOUNT} -o $TMPDIR/corrected.fasta
     echo " *** End time: " `date`;
     echo "-----------------------------------------------------------------------"
     echo
@@ -206,7 +206,7 @@ fi;
 if [ $SeecerStep -le 4 ];
 then
     echo "++ Step 4: Cleaning and putting back original read IDs ... We finish soon!"
-    ${BINDIR}/replace_ids $TMPDIR/corrected.fasta $Reads $Reads_N $Reads_O
+    echo ${BINDIR}/replace_ids $TMPDIR/corrected.fasta $Reads $Reads_N $Reads_O
 #    rm $TMPDIR/corrected.fasta
 fi;
  
