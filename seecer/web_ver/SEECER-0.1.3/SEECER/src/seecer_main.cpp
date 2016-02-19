@@ -579,6 +579,8 @@ int main(int argc, char * argv[]) {
     if (omp_get_nested()) {
 	std::cerr << "NESTED THREADS supported" << std::endl;
     }
-    omp_set_num_threads(MIN(8, omp_get_max_threads()));
+    //omp_set_num_threads(MIN(8, omp_get_max_threads()));
+    int val = omp_get_max_threads();
+    omp_set_num_threads(MIN(8, 1));
     correct_errors(argc, argv);
 }
